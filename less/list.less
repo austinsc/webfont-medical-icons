@@ -1,0 +1,17 @@
+.@{wfmi-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: @wfmi-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+
+.@{wfmi-css-prefix}-li {
+  position: absolute;
+  left: -@wfmi-li-width;
+  width: @wfmi-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.@{wfmi-css-prefix}-lg {
+    left: (-@wfmi-li-width + (4em / 14));
+  }
+}
