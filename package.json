@@ -1,6 +1,6 @@
 {
   "name": "webfont-medical-icons",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "description": "72 ICONS (X2) specialized in the Clinical & Medical world FREE and easy to use!",
   "scripts": {
     "build": "lessc --clean-css=\"--compatibility=ie8\" -ru .\\less\\webfont-medical-icons.less > .\\css\\webfont-medical-icons.css",
